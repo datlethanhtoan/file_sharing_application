@@ -3,7 +3,7 @@
 # Goal of this project
 Build a simple file-sharing application.
 # Application description
- A centralized server keeps track of which clients are connected and storing what files. \\
+ A centralized server keeps track of which clients are connected and storing what files. \
 • A client informs the server as to what files are contained in its local repository but does not actually transmit
 file data to the server.\\
 • When a client requires a file that does not belong to its repository, a request is sent to the server. The server
