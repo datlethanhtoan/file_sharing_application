@@ -15,10 +15,10 @@ the client code to be multithreaded.\
 • The client has a simple command-shell interpreter that is used to accept two kinds of commands.\
   o **publish lname fname:** a local file (which is stored in the client's file system at lname) is added to the
   client's repository as a file named fname and this information is conveyed to the server.\
-  o** fetch fname:** fetch some copy of the target file and add it to the local repository.\
+  o ** fetch fname:** fetch some copy of the target file and add it to the local repository.\
 • The server has a simple command-shell interpreter\
   o **discover hostname:** discover the list of local files of the host named hostname\
-  o** ping hostname:** live check the host named hostname
+  o ** ping hostname:** live check the host named hostname
 
 ![image](https://github.com/datlethanhtoan/file_sharing_application/assets/144478710/11b8f7af-5b68-4771-8dfa-e6f180525ea3)
 
